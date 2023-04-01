@@ -1,0 +1,55 @@
+
+
+
+  .logo{
+    width: 50px;
+    height: 50px;
+  }
+
+
+  .polaroid {
+    display: inline-block;
+    background-color: rgb(68, 126, 198);
+    padding: 10px;
+    border: 1px solid rgb(45, 45, 145);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+    margin-left: 10px;
+    max-width: 450px;
+    height: 430px;
+    text-align: center;
+  }
+  
+  .polaroid img {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .polaroid p {
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .polaroid img:hover {
+    color: antiquewhite;
+    opacity: 10;
+    border-radius: 5px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .polaroid {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    .polaroid img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  

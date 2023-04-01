@@ -1,0 +1,20 @@
+      body {
+        background-color:#FFA500;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .btn-start {
+        margin-top: 5px;
+        width: 100px;
+      }
+
+      .btn-start:hover{
+        color: #00008B;
+      }
+
+     

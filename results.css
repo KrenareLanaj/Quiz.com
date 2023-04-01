@@ -1,0 +1,17 @@
+body {
+    background-color:  rgb(68, 126, 198);
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #score {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+  }
+  
+  
