@@ -1,18 +1,18 @@
 const quiz = [
   {
-    question: "What is the capital of France?",
-    choices: ["Paris", "Madrid", "Rome", "Berlin"],
-    answer: "Paris"
+    question: "A pizza is divided into 12 slices. If there are eight slices left, what fraction of the pizza is remaining?",
+    choices: ["3/4", "2/3", "1/3", "2/4"],
+    answer: "2/3"
   },
   {
-    question: "What is the largest planet in our solar system?",
-    choices: ["Jupiter", "Saturn", "Neptune", "Earth"],
-    answer: "Jupiter"
+    question: "There are ten houses on the street. Three people live in each house. How many people live on the street?",
+    choices: ["20", "10", "30", "13"],
+    answer: "30"
   },
   {
-    question: "Who wrote the Harry Potter series?",
-    choices: ["J.K. Rowling", "Stephen King", "Dan Brown", "Agatha Christie"],
-    answer: "J.K. Rowling"
+    question: " If Davids age is 27 years old in 2011. What was his age in 2003?",
+    choices: ["17 years", "37 years", "20 years", "19 years"],
+    answer: "19 years"
   }
 ];
 
